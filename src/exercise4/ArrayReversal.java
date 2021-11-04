@@ -14,7 +14,7 @@ public class ArrayReversal {
         {
           ch[i] = input.next().charAt(0);
         }
-        System.out.print("[");
+        System.out.print("Reversed symbols: [");
         for(int i = s - 1; i >= 0; i --)
         {
           if(i > 0)

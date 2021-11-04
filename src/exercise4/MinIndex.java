@@ -8,8 +8,8 @@ public class MinIndex {
     public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
     int g = input.nextInt();  
-    float[] array = new float[g];
-    float min = 100;
+    int[] array = new int[g];
+    int min = 100;
 
     for(int i = 0; i < g; i ++)
     {
